@@ -24,12 +24,13 @@
 }
 
 /* header area ============= */
-.header{
+.header {
     background: #FFF8F3;
-    background: url('../images/header_bg.png'),url('../images/developer.png');
+    background: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right, left;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -83,50 +84,82 @@ nav li {
     color: #757575;
     margin-bottom: 30px;
 }
+
 /* main section css */
-.main{
+.main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section css */
-.about{
+.about {
     margin-top: 62px;
     padding: 130px 150px;
     background: #FFF8F3;
-border-radius: 10px;
+    border-radius: 10px;
 }
-.section-title{
+
+.section-title {
     text-align: center;
     font-weight: 700;
-font-size: 35px;
-line-height: 48px;
-color: #181818;
-margin-bottom: 30px;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 30px;
 }
-.section-description{
+
+.section-description {
     text-align: center;
     font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-color: #757575;
-margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-.about-title{
+
+.about-title {
     color: #757575;
     font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+    font-size: 20px;
+    line-height: 30px;
 }
-.about-description{
+
+.about-description {
     color: #474747;
     font-weight: 700;
-font-size: 20px;
-line-height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* What i do css */
+.what-i-do {
+    margin-top: 62px;
+    padding: 130px 150px;
+    /* background: #FFF8F3; */
+    border-radius: 10px
+}
+
+.section-title1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+}
+
+.section-description1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
 }

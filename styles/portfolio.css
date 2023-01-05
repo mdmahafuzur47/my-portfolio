@@ -22,6 +22,18 @@
     padding: 18px 35px;
     border: none;
 }
+.contact-btn{
+    background: transparent;
+    width: 160px;
+height: 64px;
+    border: 1px solid #FD6E0A;
+border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+}
 
 /* header area ============= */
 .header {

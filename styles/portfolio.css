@@ -83,3 +83,50 @@ nav li {
     color: #757575;
     margin-bottom: 30px;
 }
+/* main section css */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section css */
+.about{
+    margin-top: 62px;
+    padding: 130px 150px;
+    background: #FFF8F3;
+border-radius: 10px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+color: #181818;
+margin-bottom: 30px;
+}
+.section-description{
+    text-align: center;
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.about-title{
+    color: #757575;
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.about-description{
+    color: #474747;
+    font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+}

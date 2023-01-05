@@ -143,9 +143,9 @@ nav li {
 /* What i do css */
 .what-i-do {
     margin-top: 62px;
-    padding: 130px 150px;
+    /* padding: 130px 150px; */
     /* background: #FFF8F3; */
-    border-radius: 10px
+    /* border-radius: 10px; */
 }
 
 .section-title1 {
@@ -157,6 +157,7 @@ nav li {
 }
 
 .section-description1 {
+    padding: 30px 150px;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -180,11 +181,13 @@ nav li {
 }
 
 .skill-title {
+    margin-top: 30px;
     color: #181818;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     /* text-align: center; */
+    margin-bottom: 20px;
 }
 
 .skill-description {
@@ -192,4 +195,16 @@ nav li {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+}
+
+.summary-container {
+    margin-top: 62px;
+}
+
+.summary-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
 }

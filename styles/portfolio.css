@@ -167,8 +167,8 @@ nav li {
 /* skill css section=======  */
 
 .skill-container {
-    margin-top: 50px;
     display: flex;
+    gap: 24px;
 }
 
 .skill {

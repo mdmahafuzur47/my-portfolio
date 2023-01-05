@@ -34,7 +34,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0px 150px;
+    padding: 30px 150px;
 }
 
 nav ul {
